@@ -48,7 +48,7 @@ Final prediction is made by combining all models with Soft Voting.
 |-------|--------------|-----------|--------|----------|
 | MobileNetV2 | %39.98 | %36.53 | %40.39 | %36.77 |
 | ResNet50 | %41.25 | %39.52 | %43.01 | %38.56 |
-| EfficientNet-B0 | %55.80 | %54.34 | %49.36 | %50.39 |
+| EfficientNet-B0 | %55.80 | %56.45 | %55.80 | %55.04 |
 | **Ensemble** | **%XX** | **%XX** | **%XX** | **%XX** |
 
 ### Project Structure
