@@ -2,7 +2,7 @@
 
 ---
 
-## 🇬🇧 English
+## English
 
 Artificial Neural Networks course project - 3 person team.
 
@@ -11,7 +11,7 @@ Artificial Neural Networks course project - 3 person team.
 |------|-----------|-------|
 | Mehmet Oytun Özer | 23040301043 | MobileNetV2 |
 | Furkan Işık | 23040301063 | ResNet50 |
-| Ali Çelik | [Numara] | [Model] |
+| Ali Çelik | 23040301059 | EfficientNet-B0 |
 
 ### Project Description
 CNN Ensemble based skin disease diagnosis system. 
@@ -29,7 +29,7 @@ Final prediction is made by combining all models with Soft Voting.
 |-------|-----------|-----------|
 | MobileNetV2 | Mehmet Oytun Özer | TensorFlow/Keras (Google Colab) |
 | ResNet50 | Furkan Işık | PyTorch (Windows) |
-| [Model 3] | Ali Çelik | PyTorch (Windows) |
+| EfficientNet-B0 | Ali Çelik | PyTorch (Windows) |
 
 ### Ensemble Method
 - Method: Soft Voting
@@ -47,8 +47,8 @@ Final prediction is made by combining all models with Soft Voting.
 | Model | Test Accuracy | Precision | Recall | F1 Score |
 |-------|--------------|-----------|--------|----------|
 | MobileNetV2 | %36.81 | %XX | %XX | %XX |
-| ResNet50 | %84.96    | %0.8641  | %0.8496| %0.8478 |
-| [Model 3] | %XX | %XX | %XX | %XX |
+| ResNet50 | %84.96 | %86.41 | %84.96 | %84.78 |
+| EfficientNet-B0 | %89.79 | %XX | %XX | %XX |
 | **Ensemble** | **%XX** | **%XX** | **%XX** | **%XX** |
 
 ### Project Structure
@@ -65,12 +65,17 @@ skin-disease-diagnosis/
 │   ├── probabilities_resnet50.npy     # Softmax output probabilities for ensemble
 │   ├── test_labels.npy                # Ground truth labels for test set
 │   └── confusion_matrix_resnet50.jpg  # Per-class prediction visualization
-└── [Ali_klasörü]/
+└── AliÇelik_23040301059_SkinDiseaseDiagnosis/
+    ├── sefoya.ipynb                   # Training code and model architecture
+    ├── sefoya_final_gpu_model.pth     # Trained model weights
+    ├── probabilities_sefoya.npy       # Softmax output probabilities for ensemble
+    ├── test_labels_sefoya.npy         # Ground truth labels for test set
+    └── confusion_matrix_sefoya.png    # Per-class prediction visualization
 ```
 
 ---
 
-## 🇹🇷 Türkçe
+## Türkçe
 
 Yapay Sinir Ağları dersi dönem projesi - 3 kişilik takım.
 
@@ -79,7 +84,7 @@ Yapay Sinir Ağları dersi dönem projesi - 3 kişilik takım.
 |------|-----------|-------|
 | Mehmet Oytun Özer | 23040301043 | MobileNetV2 |
 | Furkan Işık | 23040301063 | ResNet50 |
-| Ali Çelik | [Numara] | [Model] |
+| Ali Çelik | 23040301059 | EfficientNet-B0 |
 
 ### Proje Açıklaması
 CNN Ensemble tabanlı cilt hastalığı teşhis sistemi.
@@ -97,7 +102,7 @@ Nihai tahmin, tüm modellerin Soft Voting ile birleştirilmesiyle yapılmaktadı
 |-------|-----------|-----------|
 | MobileNetV2 | Mehmet Oytun Özer | TensorFlow/Keras (Google Colab) |
 | ResNet50 | Furkan Işık | PyTorch (Windows) |
-| [Model 3] | Ali Çelik | PyTorch (Windows) |
+| EfficientNet-B0 | Ali Çelik | PyTorch (Windows) |
 
 ### Ensemble Yöntemi
 - Yöntem: Soft Voting
@@ -115,8 +120,8 @@ Nihai tahmin, tüm modellerin Soft Voting ile birleştirilmesiyle yapılmaktadı
 | Model | Test Doğruluğu | Precision | Recall | F1 Score |
 |-------|--------------|-----------|--------|----------|
 | MobileNetV2 | %36.81 | %XX | %XX | %XX |
-| ResNet50 | %84.96    | %0.8641  | %0.8496| %0.8478 |
-| [Model 3] | %XX | %XX | %XX | %XX |
+| ResNet50 | %84.96 | %86.41 | %84.96 | %84.78 |
+| EfficientNet-B0 | %89.79 | %XX | %XX | %XX |
 | **Ensemble** | **%XX** | **%XX** | **%XX** | **%XX** |
 
 ### Proje Yapısı
@@ -133,5 +138,10 @@ skin-disease-diagnosis/
 │   ├── probabilities_resnet50.npy     # Ensemble için softmax olasılık çıktıları
 │   ├── test_labels.npy                # Test seti gerçek etiketleri
 │   └── confusion_matrix_resnet50.jpg  # Sınıf bazlı tahmin görselleştirmesi
-└── [Ali_klasörü]/
+└── AliÇelik_23040301059_SkinDiseaseDiagnosis/
+    ├── sefoya.ipynb                   # Eğitim kodu ve model mimarisi
+    ├── sefoya_final_gpu_model.pth     # Eğitilmiş model ağırlıkları
+    ├── probabilities_sefoya.npy       # Ensemble için softmax olasılık çıktıları
+    ├── test_labels_sefoya.npy         # Test seti gerçek etiketleri
+    └── confusion_matrix_sefoya.png    # Sınıf bazlı tahmin görselleştirmesi
 ```
