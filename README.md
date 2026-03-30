@@ -9,7 +9,7 @@ Artificial Neural Networks course project - 3 person team.
 ### Team Members
 | Name | Student ID | Model |
 |------|-----------|-------|
-| Mehmet Oytun Özer | 23040301043 | MobileNetV2 |
+| Mehmet Oytun ÖZER | 23040301043 | MobileNetV2 |
 | Furkan Işık | 23040301063 | ResNet50 |
 | Ali Çelik | 23040301059 | EfficientNet-B0 |
 
@@ -27,7 +27,7 @@ Final prediction is made by combining all models with Soft Voting.
 ### Models
 | Model | Developer | Framework |
 |-------|-----------|-----------|
-| MobileNetV2 | Mehmet Oytun Özer | PyTorch (Windows) |
+| MobileNetV2 | Mehmet Oytun ÖZER | PyTorch (Windows) |
 | ResNet50 | Furkan Işık | PyTorch (Windows) |
 | EfficientNet-B0 | Ali Çelik | PyTorch (Windows) |
 
@@ -83,7 +83,7 @@ Yapay Sinir Ağları dersi dönem projesi - 3 kişilik takım.
 ### Takım Üyeleri
 | İsim | Öğrenci No | Model |
 |------|-----------|-------|
-| Mehmet Oytun Özer | 23040301043 | MobileNetV2 |
+| Mehmet Oytun ÖZER | 23040301043 | MobileNetV2 |
 | Furkan Işık | 23040301063 | ResNet50 |
 | Ali Çelik | 23040301059 | EfficientNet-B0 |
 
@@ -101,7 +101,7 @@ Nihai tahmin, tüm modellerin Soft Voting ile birleştirilmesiyle yapılmaktadı
 ### Modeller
 | Model | Geliştirici | Framework |
 |-------|-----------|-----------|
-| MobileNetV2 | Mehmet Oytun Özer | PyTorch (Windows) |
+| MobileNetV2 | Mehmet Oytun ÖZER | PyTorch (Windows) |
 | ResNet50 | Furkan Işık | PyTorch (Windows) |
 | EfficientNet-B0 | Ali Çelik | PyTorch (Windows) |
 
