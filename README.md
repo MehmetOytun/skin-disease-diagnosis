@@ -65,7 +65,7 @@ CNN Ensemble based skin disease diagnosis system. Each team member trained a dif
 | Model | Test Accuracy | Precision | Recall | F1 Score |
 |-------|--------------|-----------|--------|----------|
 | DenseNet121 | %75.70 | %69.91 | %74.57 | %71.10 |
-| ResNet50 | %XX | %XX | %XX | %XX |
+| ResNet50 | %70.13 | %70.97 | %70.13 | %69.59 |
 | EfficientNet-B3 | %XX | %XX | %XX | %XX |
 | **Ensemble** | **%XX** | **%XX** | **%XX** | **%XX** |
 
@@ -146,7 +146,7 @@ CNN Ensemble tabanlı cilt hastalığı teşhis sistemi. Her takım üyesi, Derm
 | Model | Test Doğruluğu | Precision | Recall | F1 Score |
 |-------|---------------|-----------|--------|----------|
 | DenseNet121 | %75.70 | %69.91 | %74.57 | %71.10 |
-| ResNet50 | %XX | %XX | %XX | %XX |
+| ResNet50 | %70.13 | %70.97 | %70.13 | %69.59 |
 | EfficientNet-B3 | %XX | %XX | %XX | %XX |
 | **Ensemble** | **%XX** | **%XX** | **%XX** | **%XX** |
 
