@@ -66,7 +66,7 @@ CNN Ensemble based skin disease diagnosis system. Each team member trained a dif
 |-------|--------------|-----------|--------|----------|
 | DenseNet121 | %75.70 | %69.91 | %74.57 | %71.10 |
 | ResNet50 | %70.13 | %70.97 | %70.13 | %69.59 |
-| EfficientNet-B3 | %XX | %XX | %XX | %XX |
+| EfficientNet-B3 | %83.87 | %83 | %83 | %83 |
 | **Ensemble** | **%XX** | **%XX** | **%XX** | **%XX** |
 
 ### Project Structure
@@ -147,7 +147,7 @@ CNN Ensemble tabanlı cilt hastalığı teşhis sistemi. Her takım üyesi, Derm
 |-------|---------------|-----------|--------|----------|
 | DenseNet121 | %75.70 | %69.91 | %74.57 | %71.10 |
 | ResNet50 | %70.13 | %70.97 | %70.13 | %69.59 |
-| EfficientNet-B3 | %XX | %XX | %XX | %XX |
+| EfficientNet-B3 | %83.87 | %83 | %83 | %83 |
 | **Ensemble** | **%XX** | **%XX** | **%XX** | **%XX** |
 
 ### Proje Yapısı
